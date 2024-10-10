@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Doses de Cafeína</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>O Uso da Cafeína em Diferentes Faixas Etárias</h1>
+        <form id="Cafeinaform" name="Cafeinaform" action="#">
+            <label for="peso"><h5>Coloque aqui o seu peso.</h5></label>
+            <input type="text" id="peso" name="peso" required>
+        </form>
+        <button onclick="CalcularCafeina()">Calcular</button>
+        
+        <p id="ml" class="result"></p>
+        <p id="xicara" class="result"></p>
+        <p id="miligramas" class="result"></p>
+    </div>
+</body>
+</html>
